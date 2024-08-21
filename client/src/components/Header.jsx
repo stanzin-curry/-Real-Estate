@@ -24,12 +24,12 @@ export default function Header() {
     }, [location.search]);
     
     return (
-        <header className='bg-slate-400 shadow-md'>
+        <header className='bg-cyan-700/75 shadow-md'>
             <div className='flex justify-between items-center max-w-6xl mx-auto p-2'>
                 <Link to='/'>
                     <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
                         <span className='text-slate-500'>Mike</span>
-                        <span className='text-slate-800'>Estate</span>
+                        <span className='text-slate-800'>Estate</span>                        
                     </h1>
                 </Link>
 
