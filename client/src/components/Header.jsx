@@ -27,10 +27,7 @@ export default function Header() {
         <header className='bg-cyan-700/75 shadow-md'>
             <div className='flex justify-between items-center max-w-6xl mx-auto p-2'>
                 <Link to='/'>
-                    <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-                        <span className='text-slate-500'>Mike</span>
-                        <span className='text-slate-800'>Estate</span>                        
-                    </h1>
+                    <img className='rounded-sm h-9 w-9 object-cover' src="client/src/images/logo.png" alt='website logo image'/>                    
                 </Link>
 
                 <ul className='flex gap-4'>
